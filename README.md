@@ -1,4 +1,5 @@
-## El Manifiesto de MxOS-Identity
+🇲🇽 MxOS-Identity
+===============================================================================
 
 ```
           ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠴⠒⠒⠚⠒⠢⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
@@ -30,9 +31,11 @@
 
 En **MxOS-Identity**, soñamos con una tramitología mexicana más ágil, segura y accesible para todos. Visualizamos un futuro donde cada ciudadano —desde nosotros mismos, nuestros vecinos, hasta nuestros hijos, padres y abuelos— se beneficie directamente de procesos digitales simplificados y confiables.
 
+### ⚖️ Misión:
+
 Nuestra misión es clara: desarrollar, liberar y promover **bibliotecas estándar y de código abierto** para los procesos esenciales de identidad digital en México.
 
-### Nuestro Compromiso:
+### 🤝 Nuestro Compromiso:
   * **Implementaciones Rigurosas:** Nos dedicaremos a la implementación precisa de procesos clave de identificación, como:
       * **CURP** (Clave Única de Registro de Población)
       * **NSS** (Número de Seguro Social)
@@ -52,7 +55,11 @@ Nuestra misión es clara: desarrollar, liberar y promover **bibliotecas estánda
 
   * **Ecosistema Amplio:** Buscaremos desarrollar **wrappers (envoltorios)** para lenguajes de programación de alto nivel que soporten FFI (Foreign Function Interface), como Perl, Python, Ruby, Node.js y PHP. Esto permitirá una integración sencilla y potente en una vasta gama de aplicaciones.
 
-### Nuestra Visión Colaborativa:
+  * Buscaremos desarrollar **wrappers (envoltorios)** para lenguajes de programación de alto nivel que soporten FFI (Foreign Function Interface), como Perl, Python, Ruby, Node.js y PHP. Esto permitirá una integración sencilla y potente en una vasta gama de aplicaciones.
+
+  * **Código de conducta:** Nos comprometemos a brindar un trato respetuoso a toda persona que busque con acercamiento a nosotros, respectar la identidad y cuidar los datos personales, para mayores detalles revisa [nuestro código de conducta](./CODE_OF_CONDUCT.md).
+
+### 👥 Nuestra Visión Colaborativa:
 
   * **Convocatoria Académica:** Invitamos al sector académico a unirse a nosotros, no solo para liberar código, sino para profundizar en la implementación técnica y académica de estos procesos. Queremos que MxOS-Identity sea un referente de estudio y aplicación.
 
@@ -60,6 +67,8 @@ Nuestra misión es clara: desarrollar, liberar y promover **bibliotecas estánda
 
   * **Unión con Proyectos Afines:** Nos gustaría convocar a autores de proyectos similares que ya hayan trabajado en estos procesos. Buscamos colaborar, aprender de su experiencia y ver cómo podemos apoyarlos mutuamente.
 
-### El Impacto que Buscamos:
+  * **¿Como contribuir?** Si sientes que converges con nosotros y tienes el interés de contribuir con nosotros revisa el [CONTRIBUTING.md](./CONTRIBUTING.md) donde encontrarás las formas como puedes hacerlo.
+
+### 📈 El Impacto que Buscamos:
 
 Soñamos con ver las implementaciones de **MxOS-Identity** corriendo en servidores nacionales, tanto gubernamentales como de la iniciativa privada, agilizando la tramitología mexicana y sentando las bases para una infraestructura de identidad digital más confiable y eficiente para todo el país.
