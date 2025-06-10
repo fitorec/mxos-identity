@@ -16,11 +16,11 @@ Reconocemos y agradecemos a quienes dedican su tiempo y conocimientos para mejor
   Rol: Líder del proyecto, Desarrollador, Tester
 
 - **Iván Chavero**  
-  GitHub: [@KenjiBrown](https://github.com/KenjiBrown)  
+  GitHub: [@imcsk8](https://github.com/imcsk8)  
   Rol: Experto en arquitectura, Desarrollador, Tester
 
 - **Sandino Araico Sánchez**  
-  GitHub: [@imcsk8](https://github.com/imcsk8)  
+  GitHub: [@KenjiBrown](https://github.com/KenjiBrown)  
   Rol: Especialista en seguridad y Arquitecto
 
 - **Raúl Eduardo González Argote**  
