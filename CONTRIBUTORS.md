@@ -7,9 +7,9 @@
 (/)_ (/)_ V__/_     que nos Identifican como mexicanos.
 ```
 
-## Agradecimientos especiales a todas las personas que han contribuido a este proyecto hasta ahora:
+## Agradecimientos especiales a las personas que han contribuido a este proyecto.
 
-Reconocemos y agradecemos a quienes dedican su tiempo y conocimientos para mejorar **MxOS-Identity**. Si quieres aparecer en esta lista, ¡anímate a contribuir!
+Reconocemos y agradecemos a quienes dedican su tiempo y conocimientos para mejorar **MxOS-Identity**:
 
 - **Miguel Angel Marcial Martinez**  
   GitHub: [@fitorec](https://github.com/fitorec)  
