@@ -29,46 +29,94 @@
                                                                              
 ```
 
-En **MxOS-Identity**, soñamos con una tramitología mexicana más ágil, segura y accesible para todos. Visualizamos un futuro donde cada ciudadano —desde nosotros mismos, nuestros vecinos, hasta nuestros hijos, padres y abuelos— se beneficie directamente de procesos digitales simplificados y confiables.
+> Esfuerzo colectivo por democratizar, transparentar y liberar los procesos digitales que nos identifican como ciudadanos.
 
-### ⚖️ Misión:
+---
 
-Nuestra misión es clara: desarrollar, liberar y promover **bibliotecas estándar y de código abierto** para los procesos esenciales de identidad digital en México.
+## ✨ ¿Qué es MxOS-Identity?
 
-### 🤝 Nuestro Compromiso:
-  * **Implementaciones Rigurosas:** Nos dedicaremos a la implementación precisa de procesos clave de identificación, como:
-      * **CURP** (Clave Única de Registro de Población)
-      * **NSS** (Número de Seguro Social)
-      * **RFC** (Registro Federal de Contribuyentes)
-        Cada implementación seguirá al pie de la letra los marcos normativos federales correspondientes, asegurando la máxima **precisión y legalidad**.
+**MxOS-Identity** es una iniciativa de Software Libre que busca implementar, estandarizar y liberar bibliotecas para los principales procesos digitales de identidad mexicana:
 
-  * **Funcionalidad Esencial:** Cada implementación de identidad (CURP, NSS, RFC) ofrecerá dos funciones básicas pero potentes:
+ - **CURP** - Clave Única de Registro de Población
+ - **NSS** - Número de Seguro Social
+ - **RFC** - Registro Federal de Contribuyentes
 
-      * `generator`: Para la creación de identidades, con una opción `__faker__` para casos de prueba y desarrollo.
-      * `validator`: Para verificar la validez de los datos de identidad.
+Estos identificadores no solo nos representan ante el Estado, sino que habilitan o restringen el acceso a derechos, servicios y trámites fundamentales. Hoy más que nunca, necesitamos herramientas libres, confiables y auditables que aseguren que la identidad digital esté en manos de todos.
 
-  * **Rendimiento y Seguridad:** Nos esforzaremos por crear implementaciones que operen de la manera más **eficiente y segura posible** en cualquier entorno, garantizando la integridad de los datos sensibles.
+---
 
-  * **Documentación Centralizada y Transparente:** Agruparemos y publicaremos la **documentación oficial** disponible al público para cada proceso, facilitando la comprensión y el uso de nuestras librerías.
+## 🎯 Objetivos del Proyecto
 
-  * **Tecnología Robusta y Abierta:** Desarrollado en **Rust**, MxOS-Identity ofrecerá un rendimiento excepcional y una seguridad inherente. Será y permanecerá **100% de código abierto y libre** para todos.
+ - Crear **implementaciones fieles y rigurosas** de los procesos CURP, NSS y RFC, cumpliendo estrictamente los marcos normativos federales correspondientes.
+ - Desarrollar para cada proceso, al menos dos funciones básicas:
+   - `generator()` — con opción `faker` para pruebas y desarrollo.
+   - `validator()` — para validación segura y confiable.
 
-  * **Ecosistema Amplio:** Buscaremos desarrollar **wrappers (envoltorios)** para lenguajes de programación de alto nivel que soporten FFI (Foreign Function Interface), como Perl, Python, Ruby, Node.js y PHP. Esto permitirá una integración sencilla y potente en una vasta gama de aplicaciones.
+---
 
-  * Buscaremos desarrollar **wrappers (envoltorios)** para lenguajes de programación de alto nivel que soporten FFI (Foreign Function Interface), como Perl, Python, Ruby, Node.js y PHP. Esto permitirá una integración sencilla y potente en una vasta gama de aplicaciones.
+## 📚 Más allá del código
 
-  * **Código de conducta:** Nos comprometemos a brindar un trato respetuoso a toda persona que busque con acercamiento a nosotros, respectar la identidad y cuidar los datos personales, para mayores detalles revisa [nuestro código de conducta](./CODE_OF_CONDUCT.md).
+Queremos liberar más que funciones. Buscamos acompañar cada implementación con:
 
-### 👥 Nuestra Visión Colaborativa:
+ - Manual detallado para la generación y validación.
+ - Ejemplos funcionales en lenguajes de alto nivel (como Python).
+ - Recopilación de documentación oficial y no oficial relevante.
+ - Referencias cruzadas a proyectos afines o complementarios.
+ - Publicación abierta y accesible de toda esta información para beneficio colectivo.
 
-  * **Convocatoria Académica:** Invitamos al sector académico a unirse a nosotros, no solo para liberar código, sino para profundizar en la implementación técnica y académica de estos procesos. Queremos que MxOS-Identity sea un referente de estudio y aplicación.
+---
 
-  * **Comunidades de Lenguajes:** Hacemos un llamado a las diversas comunidades de desarrollo (Ruby, Python, PHP, Node.js) existentes en México para que adopten el proyecto, mantengan su propio paquete oficial y exploren la integración de nuestras bibliotecas, ya sea a través de FFI o mediante implementaciones nativas donde sea pertinente.
+## 🚀 Comunidad, ecosistema y colaboración
 
-  * **Unión con Proyectos Afines:** Nos gustaría convocar a autores de proyectos similares que ya hayan trabajado en estos procesos. Buscamos colaborar, aprender de su experiencia y ver cómo podemos apoyarlos mutuamente.
+Este es un llamado abierto:
 
-  * **¿Como contribuir?** Si sientes que converges con nosotros y tienes el interés de contribuir con nosotros revisa el [CONTRIBUTING.md](./CONTRIBUTING.md) donde encontrarás las formas como puedes hacerlo.
+ - A la comunidad académica, para colaborar y enriquecer las bases técnicas y legales.
+ - A las comunidades de lenguajes (Ruby, Python, PHP, Node.js, etc.) para desarrollar:
+   - Wrappers mediante FFI o implementación nativa.
+   - Publicaciones en sus sistemas de paquetes (gems, pip, composer...).
+ - A quienes ya hayan trabajado en estos temas, para sumar esfuerzos, compartir experiencia y construir comunidad.
+ - A quienes creen en una **identidad digital abierta, plural, segura y soberana**.
 
-### 📈 El Impacto que Buscamos:
+> De nuestra parte como **MxOS-Identity** nos comprometemos a brindar un trato respetuoso a toda persona que busque con acercamiento a nosotros, respectar la identidad y cuidar los datos personales, para mayores detalles revisa [nuestro código de conducta](./CODE_OF_CONDUCT.md).
 
-Soñamos con ver las implementaciones de **MxOS-Identity** corriendo en servidores nacionales, tanto gubernamentales como de la iniciativa privada, agilizando la tramitología mexicana y sentando las bases para una infraestructura de identidad digital más confiable y eficiente para todo el país.
+---
+
+## 🔄 Integración con MxOS
+
+**MxOS-Identity** será parte del sistema operativo libre mexicano [MxOS](https://docs.mx-os.mx), donde estas bibliotecas se integrarán como herramientas base del sistema. Desde ahí, podremos escalar su uso en servidores, sistemas institucionales y soluciones gubernamentales o privadas.
+
+---
+
+## 🇲🇽 Por la soberanía tecnológica
+
+Inspirados en los principios de [MxOS](https://docs.mx-os.mx/acerca/impacto/#fortalecimiento-de-la-soberania-tecnologica), buscamos:
+
+ - **Mayor Control y Autonomía Nacional**
+  Que las implementaciones estén disponibles para que cualquier persona pueda usarlas, modificarlas, redistribuirlas.
+
+ - **Generación de Propiedad Intelectual Estratégica**
+  Documentar y liberar el conocimiento detrás de cada proceso, promoviendo la innovación abierta.
+
+---
+
+## 🙌 Súmate al esfuerzo
+
+Este proyecto es y será **libre, gratuito y transparente**, guiado por una comunidad plural que cree en la colaboración y el bien común.
+
+Soñamos con ver nuestras implementaciones corriendo en servidores nacionales, fortaleciendo nuestras instituciones y acercando la tecnología a quienes más la necesitan.
+
+---
+
+## ✍️ ¿Cómo participar?
+
+> Creemos que una identidad digital abierta y soberana es un derecho fundamental, y tu talento, sin importar tu área de especialización, puede hacer una gran diferencia.
+
+
+ - ¿Eres programador en Rust?
+ - ¿Te interesa aprender Rust colaborando en un proyecto real?
+ - ¿Te gusta el software libre?
+ - ¿Conoces los procesos de CURP, RFC o NSS?
+ - ¿Formas parte de una comunidad de programación y quieres aportar wrappers, documentación o mejoras?
+ - ¿Quieres impulsar la digitalización justa de nuestra identidad?
+
+👉 ¡[ÚNETE!](CONTRIBUTING.md) Estamos construyendo esto juntos.
