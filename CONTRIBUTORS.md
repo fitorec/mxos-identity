@@ -1,5 +1,12 @@
 # CONTRIBUTORS.md
 
+```
+           _
+ _    _   ( o_ 🇲🇽  Rumbo a la democratización, Transparencia
+(o_  (o_  // \/     y Liberación de los Procesos Digitales
+(/)_ (/)_ V__/_     que nos Identifican como mexicanos.
+```
+
 ## Agradecimientos especiales a todas las personas que han contribuido a este proyecto hasta ahora:
 
 Reconocemos y agradecemos a quienes dedican su tiempo y conocimientos para mejorar **MxOS-Identity**. Si quieres aparecer en esta lista, ¡anímate a contribuir!
@@ -23,7 +30,7 @@ Reconocemos y agradecemos a quienes dedican su tiempo y conocimientos para mejor
 
 ---
 
-## ¿Te gustaría unirte a esta lista?
+## ¿Te gustaría colaborar con nosotros?
 
 Estamos buscando contribuciones en:
 
@@ -32,4 +39,5 @@ Estamos buscando contribuciones en:
 - Pruebas y validación de librerías
 - Traducción y difusión
 
-Consulta la guía de [CONTRIBUTING.md](./CONTRIBUTING.md) para más información sobre cómo empezar. ¡Toda colaboración es bienvenida!
+Consulta la guía de [CONTRIBUTING.md](./CONTRIBUTING.md) para más información sobre cómo empezar. 
+**¡Toda colaboración es bienvenida!**.
